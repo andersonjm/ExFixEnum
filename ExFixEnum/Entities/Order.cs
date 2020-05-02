@@ -49,7 +49,7 @@ namespace ExFixEnum.Entities
 
             sb.AppendLine("Order moment: " + Moment.ToString("dd/MM/yyyy HH:mm:ss"));
             sb.AppendLine("Order status: " + Status);
-            sb.AppendLine("Client: " + Client);
+            sb.AppendLine(Client.ToString());
             sb.AppendLine("Order items:");
             foreach (OrderItem item in Items)
             {
